@@ -3,6 +3,7 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    padding-top: 50px;
 }
 
 #tentacles {
@@ -19,8 +20,37 @@ body {
     margin-top: -10px;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    z-index: 1000; 
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +102,26 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+/* Search Bar Styling */
+#search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;  /* Space between input and button */
+    transition: all 0.3s ease;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 8px rgba(0, 102, 204, 0.6);
 }
