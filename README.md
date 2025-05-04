@@ -36,7 +36,7 @@ GIF created with ...
 [Loom] (https://loom.com) fro macOS with Chrom Extension 
 
 ## Notes
-None - instructions were quite easy and clear to understand. 
+Instructions were quite easy and clear to understand. 
 
 ## License
 
